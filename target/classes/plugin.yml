@@ -1,0 +1,8 @@
+name: LocalChatPlugin
+version: '1.0-SNAPSHOT'
+main: org.molodoyss.localChatPlugin.Main
+api-version: '1.21'
+commands:
+  local-msg:
+    usage: /local-msg <message>
+    description: send local message for players in 10 blocks radius
